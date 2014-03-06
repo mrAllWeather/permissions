@@ -1,0 +1,34 @@
+{% extends "base_permission.html" %}
+
+{% block header %}{{ publisher.name }}{% endblock %}
+{% block subheader %}{% endblock %}
+
+{% block content %}
+	<ul class="style1">
+		<div style="float: right;">
+			<a href="{% url 'admin:permission_publisher_change' publisher.id %}">Edit Publisher</a>
+		</div>
+
+		<h3><u>Brief Details</u></h3>
+		<p>
+
+		<b>Name:</b> {{ publisher.name }}<br>	
+
+		<b>Website:</b><a href="{{ publisher.website }}">{{ publisher.website }}</a><br>
+
+		<b>Journals:</b><br>
+		{% for journal in publisher.journals %}
+			<a href="{% url 'permission:detail' journal.id %}">{{journal.title}}</a>
+		{% endfor %}
+
+		<b>Agreements:</b><br>
+		{% for agreement in publisher.agreements %}
+			<a href="{% url 'admin:permission_agreement_change' agreement.id %}">{{agreement}}</a>
+		{% endfor %}
+	</ul>
+	<br>
+	{# Journal Links #}
+	Persistant Link: <a href="{% url 'permission:publisher_detail' publisher.id %}">http://{{ domain_name }}{% url 'permission:publisher_detail' publisher.id %}</a><br>
+{% endblock %}
+
+

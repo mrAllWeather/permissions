@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Skeleton 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20130902
+
+-->
+{% load staticfiles %}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="{% static "permission/default.css" %}" rel="stylesheet" type="text/css" media="all" />
+<link href="{% static "permission/fonts.css" %}" rel="stylesheet" type="text/css" media="all" />
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+</head>
+<body>
+<div id="page" class="container">
+	<div id="header">
+		<div id="logo">
+			<img src="{% static "permission/images/cc.svg" %}" height="50" width="32" alt="" />
+			<h1><a href="#">Journal Permissions</a></h1>
+			<span>Design by <a href="http://www.freecsstemplates.org/" rel="nofollow">FreeCSSTemplates.org</a></span>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="current_page_item">{% block sidebar %}<a href="/" accesskey="1" title="">Homepage</a></li>
+				<li><a href="/permission/" accesskey="2" title="">Journals</a></li>
+				<li><a href="/permission/publisher/" accesskey="3" title="">Publishers</a></li>
+				<li>
+					<form action="/permission/search/" method="get">
+					<input class="fsSubmitButton" value="ISSN Search" type="submit" name="Search">
+					<input type="text" name="query"><br>
+				</li>
+				<li><a href="/permission/search/" accesskey = "4" title="">Search</a></li>
+				</form>
+				{% endblock %}
+			</ul>
+		</div>
+	</div>
+	<div id="main">
+		<div id="banner">
+			{# <img src="{% static "permission/images/pic01.jpg" %}" alt="" class="image-full" />#}
+		</div>
+		<div id="welcome">
+			<div class="title">
+				<h2>{% block header %}Title{% endblock %}</h2>
+				<span class="byline">{% block subheader %}{% endblock %}</span>
+			</div>
+			{% block content %}
+				<p>If you are seeing this, there has been an error. This content is meant to be overridden by the appropriate view</p>
+			{% endblock %}
+			<ul class="actions">
+				<li><a href="#" class="button">TOP</a></li>
+			</ul>
+		</div>
+		<div id="featured">
+		{% block sherpa %}
+		{% endblock %}
+		</div>
+		<div id="copyright">
+			<span>Copyright (c) 2013 Ben. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a></span>
+			<span>Design by <a href="http://www.freecsstemplates.org/" rel="nofollow">FreeCSSTemplates.org</a>.</span>
+		</div>
+	</div>
+</div>
+</body>
+</html>

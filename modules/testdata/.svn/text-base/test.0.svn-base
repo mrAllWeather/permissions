@@ -1,0 +1,1889 @@
+Data     : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Data     : 
+
+Start tag: html
+Data     : 
+    
+Start tag: head
+Data     : 
+        
+Start tag: title
+Data     : Adelaide Research and Scholarship: The association of AGTR2 polymorphisms with preeclampsia and uterine artery bilateral notching is modulated by maternal BMI
+End tag  : title
+Data     : 
+        
+Start tag: meta
+     attr: ('http-equiv', 'Content-Type')
+     attr: ('content', 'text/html; charset=UTF-8')
+End tag  : meta
+Data     : 
+        
+Start tag: meta
+     attr: ('name', 'Generator')
+     attr: ('content', 'DSpace')
+End tag  : meta
+Data     : 
+        
+Start tag: link
+     attr: ('rel', 'stylesheet')
+     attr: ('href', '/dspace/styles.css.jsp')
+     attr: ('type', 'text/css')
+End tag  : link
+Data     : 
+        
+Start tag: link
+     attr: ('rel', 'stylesheet')
+     attr: ('href', '/dspace/print.css')
+     attr: ('media', 'print')
+     attr: ('type', 'text/css')
+End tag  : link
+Data     : 
+        
+        
+Start tag: link
+     attr: ('rel', 'stylesheet')
+     attr: ('href', '/lib/2005/head-section.css')
+     attr: ('type', 'text/css')
+End tag  : link
+Data     : 
+        
+Start tag: link
+     attr: ('rel', 'stylesheet')
+     attr: ('href', '/lib/2005/foot-section.css')
+     attr: ('type', 'text/css')
+End tag  : link
+Data     : 
+        
+        
+Start tag: link
+     attr: ('rel', 'shortcut icon')
+     attr: ('href', 'http://www.adelaide.edu.au/favicon.ico')
+     attr: ('type', 'image/x-icon')
+End tag  : link
+Data     : 
+
+
+
+Start tag: link
+     attr: ('rel', 'schema.DCTERMS')
+     attr: ('href', 'http://purl.org/dc/terms/')
+End tag  : link
+Data     : 
+
+Start tag: link
+     attr: ('rel', 'schema.DC')
+     attr: ('href', 'http://purl.org/dc/elements/1.1/')
+End tag  : link
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DC.creator')
+     attr: ('content', 'Zhou, Ang')
+     attr: ('xml:lang', 'en')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DC.creator')
+     attr: ('content', 'Dekker, Gustaaf Albert')
+     attr: ('xml:lang', 'en')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DC.creator')
+     attr: ('content', 'Lumbers, Eugenie Ruth')
+     attr: ('xml:lang', 'en')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DC.creator')
+     attr: ('content', 'Leemaqz, Shalem Yiner-Lee')
+     attr: ('xml:lang', 'en')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DC.creator')
+     attr: ('content', 'Thompson, Steven David')
+     attr: ('xml:lang', 'en')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DC.creator')
+     attr: ('content', 'McCowan, Lesley M. E.')
+     attr: ('xml:lang', 'en')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DC.creator')
+     attr: ('content', 'Roberts, Claire Trelford')
+     attr: ('xml:lang', 'en')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DCTERMS.dateAccepted')
+     attr: ('content', '2013-08-26T04:30:45Z')
+     attr: ('scheme', 'DCTERMS.W3CDTF')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DCTERMS.available')
+     attr: ('content', '2013-08-26T04:30:45Z')
+     attr: ('scheme', 'DCTERMS.W3CDTF')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DCTERMS.issued')
+     attr: ('content', '2013')
+     attr: ('xml:lang', 'en')
+     attr: ('scheme', 'DCTERMS.W3CDTF')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DCTERMS.bibliographicCitation')
+     attr: ('content', 'Placenta, 2013; 34(1):75-81')
+     attr: ('xml:lang', 'en')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DC.identifier')
+     attr: ('content', '0143-4004')
+     attr: ('xml:lang', 'en')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DC.identifier')
+     attr: ('content', 'http://hdl.handle.net/2440/79437')
+     attr: ('scheme', 'DCTERMS.URI')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DC.description')
+     attr: ('content', 'On behalf of the SCOPE consortium')
+     attr: ('xml:lang', 'en')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DC.description')
+     attr: ('content', 'A. Zhou, G.A. Dekker, E.R. Lumbers, S.Y. Lee, S.D. Thompson, L.M.E. McCowan, C.T. Roberts')
+     attr: ('xml:lang', 'en')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DC.language')
+     attr: ('content', 'en')
+     attr: ('xml:lang', 'en')
+     attr: ('scheme', 'DCTERMS.RFC1766')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DC.publisher')
+     attr: ('content', 'W B Saunders Co')
+     attr: ('xml:lang', 'en')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DC.relation')
+     attr: ('content', '\xc2\xa9 2012 Elsevier Ltd. All rights reserved.')
+     attr: ('xml:lang', 'en')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DC.subject')
+     attr: ('content', 'AGTR2 C4599A; AGTR2 A1675G; Polymorphism; BMI; Preeclampsia; Uterine artery bilateral notching')
+     attr: ('xml:lang', 'en')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DC.title')
+     attr: ('content', 'The association of AGTR2 polymorphisms with preeclampsia and uterine artery bilateral notching is modulated by maternal BMI')
+     attr: ('xml:lang', 'en')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DC.type')
+     attr: ('content', 'Journal article')
+     attr: ('xml:lang', 'en')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DC.contributor')
+     attr: ('content', 'School of Paediatrics and Reproductive Health : Obstetrics and Gynaecology')
+     attr: ('xml:lang', 'en')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DC.identifier')
+     attr: ('content', '0020125633')
+     attr: ('xml:lang', 'en')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DC.identifier')
+     attr: ('content', '10.1016/j.placenta.2012.10.007')
+     attr: ('xml:lang', 'en')
+End tag  : meta
+Data     : 
+
+Start tag: meta
+     attr: ('name', 'DC.identifier')
+     attr: ('content', '000314326700013')
+     attr: ('xml:lang', 'en')
+End tag  : meta
+Data     : 
+
+       
+
+    
+Start tag: script
+     attr: ('type', 'text/javascript')
+     attr: ('src', '/dspace/static/js/utils.js')
+End tag  : script
+Data     : 
+    
+Start tag: script
+     attr: ('type', 'text/javascript')
+     attr: ('src', '/dspace/static/js/scriptaculous/prototype.js')
+Data     :  
+End tag  : script
+Data     : 
+    
+Start tag: script
+     attr: ('type', 'text/javascript')
+     attr: ('src', '/dspace/static/js/scriptaculous/effects.js')
+Data     :  
+End tag  : script
+Data     : 
+    
+Start tag: script
+     attr: ('type', 'text/javascript')
+     attr: ('src', '/dspace/static/js/scriptaculous/builder.js')
+Data     :  
+End tag  : script
+Data     : 
+    
+Start tag: script
+     attr: ('type', 'text/javascript')
+     attr: ('src', '/dspace/static/js/scriptaculous/controls.js')
+Data     :  
+End tag  : script
+Data     : 
+    
+Start tag: script
+     attr: ('type', 'text/javascript')
+     attr: ('src', '/dspace/static/js/choice-support.js')
+Data     :  
+End tag  : script
+Data     : 
+
+    
+    
+Start tag: script
+     attr: ('type', 'text/javascript')
+     attr: ('src', '/dspace/static/js/jquery/jquery-1.7.1.min.js')
+Data     :  
+End tag  : script
+Data     : 
+    
+Start tag: script
+     attr: ('type', 'text/javascript')
+     attr: ('src', '/dspace/static/js/jquery/jquery-ui-1.8.18.custom.min.js')
+Data     :  
+End tag  : script
+Data     : 
+    
+Start tag: script
+     attr: ('type', 'text/javascript')
+     attr: ('src', '/dspace/static/js/lookupdialog.js')
+Data     :  
+End tag  : script
+Data     : 
+    
+Start tag: link
+     attr: ('rel', 'stylesheet')
+     attr: ('href', '/dspace/static/css/jquery-ui-1.8.18.uals.css')
+     attr: ('type', 'text/css')
+End tag  : link
+Data     : 
+
+    
+    
+Start tag: script
+     attr: ('type', 'text/javascript')
+Data     : 
+    $.noConflict();
+    jQuery(document).ready(function($) {
+    	   $(".lookup_dialog").each(
+                function(){
+                    $(this).lookupDialog({
+                        height: 400, maxHeight: 800,
+		                width: 750, maxWidth: 950,
+                        title: "Authority Lookup",
+                        dialogField: this.id,
+                        lookupUrl: "/dspace/ajaxchoice.json"
+                        });
+                    }
+                );
+    	
+
+                $(".suggest_autocomplete").each(
+                    function(){
+                        //Use the DSpace created id for the element to extract the dc element
+                        //name - with some string processing of course
+                        //DSpace assigned id`s look like value_dc_publisher_00 -
+                        //strip off the leading value_ and trailing _00 ( first 6 chars and last 3 chars )
+
+                        var elId = $(this).prop("id");
+                        var dc_element = elId.substring(6, (elId.length - 3 ));
+                        $(this).autocomplete({
+                           source: function (request, response) {
+                                   $.ajax({
+                                       url: "/dspace/ajaxchoice.json",
+                                       data: { element: dc_element,
+                                               q: request.term,
+                                               limit: "100"
+                                       },
+                                       success: function (data) {
+                                       response($.map(data, function (item) {
+                                         return { value: item.value }
+                                    }));
+                                }
+                                });
+                                },
+                          minLength: 3,
+                          delay: 0
+                       });
+
+                    }
+                )
+
+        });
+    
+End tag  : script
+Data     : 
+      
+    
+
+    
+Start tag: script
+     attr: ('type', 'text/javascript')
+     attr: ('src', 'http://searchapi.scopus.com/scripts/scapi.jsp')
+End tag  : script
+Data     : 
+    
+Start tag: script
+     attr: ('type', 'text/javascript')
+Data     : 
+    scopusCallback = function(){
+        var ccount = scapi.getField(0, "citedbycount");
+        if (ccount > 0) {
+       		var doi = "10.1016/j.placenta.2012.10.007";
+            var eid = "null";
+	    if (eid == "null") {
+		eid="";
+            }
+            var lookupStr = "";
+            if ( eid != "") {
+                lookupStr = "eid=" + eid;
+            } else {
+                lookupStr = "doi=" + doi;
+            }
+            var link = "http://www.scopus.com/scopus/inward/citedby.url?"+lookupStr+"&sortField=date&partnerID=pUWguXd3&rel=3.0.0";
+            var message = "<center><b>Times cited in Scopus: <a href='" + link + "'>" +  ccount + "</a></b>";
+            document.getElementById("scopusCount").innerHTML = message;
+        }
+    }
+
+    searchScopus = function(){
+        scapi.setDeveloperID("MClfi1c7IADNlZLKMvTn2ku83dsOcM");
+        scapi.setCallback(scopusCallback);
+        var eid = "null";
+        if (eid == "null") {
+	    eid="";
+	}
+
+        var varSearchObj = new searchObj();
+        if ( eid != "") {
+        	varSearchObj.setSearch("EID(null)");
+        } else {
+            varSearchObj.setSearch("10.1016/j.placenta.2012.10.007");
+        }
+        scapi.runSearch(varSearchObj);
+    }
+    
+End tag  : script
+Data     : 
+
+
+
+        
+Start tag: script
+     attr: ('type', 'text/javascript')
+     attr: ('src', 'http://digital.library.adelaide.edu.au/javascript/ajax.js')
+End tag  : script
+Data     : 
+        
+Start tag: script
+     attr: ('type', 'text/javascript')
+     attr: ('src', 'http://digital.library.adelaide.edu.au/javascript/citedby.js')
+End tag  : script
+Data     : 
+        
+Start tag: script
+     attr: ('type', 'text/javascript')
+Data     : 
+        searchWebScience = function()
+        {
+            citedby = new CitedBy();
+            citedby.setDisplayElementName("webScienceCount");
+            citedby.doQuery("10.1016/j.placenta.2012.10.007","000314326700013");
+        }
+        
+End tag  : script
+Data     : 
+
+
+
+        
+Start tag: script
+     attr: ('type', 'text/javascript')
+Data     : 
+        runSearch = function(){
+                        
+                 searchScopus();               
+                        
+            
+                 searchWebScience();            
+                        
+        }
+        
+End tag  : script
+Data     : 
+
+    
+    
+    
+    
+     
+    
+End tag  : head
+Data     : 
+
+    
+    
+    
+Start tag: body
+     attr: ('onload', 'runSearch()')
+Data     :  
+
+        
+        
+Start tag: div
+     attr: ('id', 'head-section')
+     attr: ('title', 'page header')
+Data     : 
+        
+Start tag: a
+     attr: ('name', 'top')
+End tag  : a
+Data     : 
+        
+Start tag: table
+     attr: ('id', 'toplinks')
+     attr: ('width', '100%')
+     attr: ('border', '0')
+     attr: ('cellspacing', '0')
+     attr: ('cellpadding', '0')
+Data     : 
+        
+Start tag: tr
+Data     : 
+        
+Start tag: td
+     attr: ('valign', 'middle')
+     attr: ('align', 'left')
+Start tag: a
+     attr: ('href', 'http://www.adelaide.edu.au/')
+Data     : The University of Adelaide
+End tag  : a
+Data     :  
+Data     :  
+Start tag: a
+     attr: ('href', 'http://www.adelaide.edu.au/library/')
+Data     : Library
+End tag  : a
+Data     :  
+Data     :  
+Start tag: a
+     attr: ('style', 'color:#ffcc33;')
+     attr: ('href', 'http://digital.library.adelaide.edu.au/')
+Data     : Digital Library
+End tag  : a
+End tag  : td
+Data     : 
+        
+Start tag: td
+     attr: ('align', 'right')
+     attr: ('valign', 'middle')
+Start tag: a
+     attr: ('href', 'http://www.adelaide.edu.au/library/a_z.html')
+Data     : Library A to Z
+End tag  : a
+End tag  : td
+Data     : 
+        
+End tag  : tr
+Data     : 
+        
+End tag  : table
+Data     : 
+
+        
+Start tag: table
+     attr: ('id', 'thin-banner')
+     attr: ('width', '100%')
+     attr: ('border', '0')
+     attr: ('cellspacing', '0')
+     attr: ('cellpadding', '0')
+Data     : 
+        
+Start tag: tr
+Data     : 
+        
+Start tag: td
+     attr: ('align', 'left')
+Start tag: a
+     attr: ('href', '/dspace/')
+Start tag: img
+     attr: ('border', '0')
+     attr: ('src', '/lib/images/ARS.jpg')
+     attr: ('width', '550')
+     attr: ('height', '41')
+     attr: ('alt', 'University of Adelaide Library')
+End tag  : a
+End tag  : td
+Data     : 
+        
+End tag  : tr
+Data     : 
+        
+End tag  : table
+Data     : 
+        
+End tag  : div
+Data     : 
+        
+
+        
+
+
+
+
+
+        
+
+        
+        
+Start tag: table
+     attr: ('class', 'centralPane')
+     attr: ('width', '100%')
+     attr: ('border', '0')
+     attr: ('cellpadding', '3')
+     attr: ('cellspacing', '1')
+Data     : 
+
+            
+            
+Start tag: tr
+     attr: ('valign', 'top')
+Data     : 
+
+            
+
+            
+Start tag: td
+     attr: ('class', 'navigationBar')
+Data     : 
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Start tag: table
+     attr: ('width', '170')
+     attr: ('border', '0')
+     attr: ('cellspacing', '2')
+     attr: ('cellpadding', '2')
+Data     : 
+
+  
+Start tag: tr
+Data     : 
+    
+Start tag: td
+     attr: ('nowrap', 'nowrap')
+     attr: ('class', 'navigationBarSublabel')
+Data     : Search
+End tag  : td
+Data     : 
+  
+End tag  : tr
+Data     : 
+
+  
+Start tag: tr
+     attr: ('class', 'navigationBarItem')
+Data     : 
+    
+Start tag: td
+     attr: ('nowrap', 'nowrap')
+     attr: ('class', 'navigationBarItem')
+Data     : 
+
+
+
+Start tag: form
+     attr: ('method', 'get')
+     attr: ('action', '/dspace/simple-search')
+Data     : 
+              
+Start tag: input
+     attr: ('type', 'text')
+     attr: ('name', 'query')
+     attr: ('id', 'tequery')
+     attr: ('size', '8')
+End tag  : input
+Start tag: input
+     attr: ('type', 'submit')
+     attr: ('name', 'submit')
+     attr: ('value', 'Go')
+End tag  : input
+Data     : 
+
+End tag  : form
+Data     : 
+            
+End tag  : td
+Data     : 
+          
+End tag  : tr
+Data     : 
+  
+Start tag: tr
+     attr: ('class', 'navigationBarItem')
+Data     : 
+    
+Start tag: td
+     attr: ('nowrap', 'nowrap')
+     attr: ('class', 'navigationBarItem')
+Data     : 
+                 
+Start tag: a
+     attr: ('href', '/dspace/advanced-search')
+Data     : Advanced Search
+End tag  : a
+Data     : 
+            
+End tag  : td
+Data     : 
+          
+End tag  : tr
+Data     : 
+
+
+Start tag: tr
+Data     : 
+    
+Start tag: td
+     attr: ('nowrap', 'nowrap')
+     attr: ('class', 'navigationBarSublabel')
+Data     : Browse
+End tag  : td
+Data     : 
+  
+End tag  : tr
+Data     : 
+
+   
+Start tag: tr
+     attr: ('class', 'navigationBarItem')
+Data     : 
+   
+Start tag: td
+     attr: ('nowrap', 'nowrap')
+     attr: ('class', 'navigationBarItem')
+Data     : 
+      
+Start tag: a
+     attr: ('href', '/dspace/community-list')
+Data     : Communities
+Start tag: br
+End tag  : br
+Data     : Collections
+End tag  : a
+Data     : 
+    
+End tag  : td
+Data     : 
+
+End tag  : tr
+Data     : 
+
+
+
+
+		
+Start tag: tr
+     attr: ('class', 'navigationBarItem')
+Data     : 
+    		
+Start tag: td
+     attr: ('nowrap', 'nowrap')
+     attr: ('class', 'navigationBarItem')
+Data     : 
+      			
+Start tag: a
+     attr: ('href', '/dspace/browse?type=dateissued')
+Data     : Issue Date
+End tag  : a
+Data     : 
+    		
+End tag  : td
+Data     : 
+  		
+End tag  : tr
+Data     : 
+	
+		
+Start tag: tr
+     attr: ('class', 'navigationBarItem')
+Data     : 
+    		
+Start tag: td
+     attr: ('nowrap', 'nowrap')
+     attr: ('class', 'navigationBarItem')
+Data     : 
+      			
+Start tag: a
+     attr: ('href', '/dspace/browse?type=author')
+Data     : Author
+End tag  : a
+Data     : 
+    		
+End tag  : td
+Data     : 
+  		
+End tag  : tr
+Data     : 
+	
+		
+Start tag: tr
+     attr: ('class', 'navigationBarItem')
+Data     : 
+    		
+Start tag: td
+     attr: ('nowrap', 'nowrap')
+     attr: ('class', 'navigationBarItem')
+Data     : 
+      			
+Start tag: a
+     attr: ('href', '/dspace/browse?type=title')
+Data     : Title
+End tag  : a
+Data     : 
+    		
+End tag  : td
+Data     : 
+  		
+End tag  : tr
+Data     : 
+	
+  
+Start tag: tr
+Data     : 
+    
+Start tag: td
+     attr: ('nowrap', 'nowrap')
+     attr: ('class', 'navigationBarSublabel')
+Data     : 
+      
+Start tag: a
+     attr: ('href', '/cgi-bin/submit')
+Data     : Submit your work!
+End tag  : a
+Data     : 
+    
+End tag  : td
+Data     : 
+  
+End tag  : tr
+Data     : 
+
+  
+Start tag: tr
+     attr: ('class', 'navigationBarItem')
+Data     : 
+    
+Start tag: td
+     attr: ('nowrap', 'nowrap')
+     attr: ('class', 'navigationBarItem')
+Data     : 
+      
+Start tag: a
+     attr: ('href', '/dspace/faq/faq.jsp')
+Data     : FAQ
+End tag  : a
+Data     : 
+    
+End tag  : td
+Data     : 
+  
+End tag  : tr
+Data     : 
+  
+Start tag: tr
+     attr: ('class', 'navigationBarItem')
+Data     : 
+    
+Start tag: td
+     attr: ('nowrap', 'nowrap')
+     attr: ('class', 'navigationBarItem')
+Data     : 
+      
+Start tag: a
+     attr: ('href', '/dspace/faq/contact.jsp')
+Data     : Contact
+End tag  : a
+Data     : 
+    
+End tag  : td
+Data     : 
+  
+End tag  : tr
+Data     : 
+  
+Start tag: tr
+     attr: ('class', 'navigationBarItem')
+Data     : 
+    
+Start tag: td
+     attr: ('nowrap', 'nowrap')
+     attr: ('class', 'navigationBarItem')
+Data     : 
+      
+Start tag: script
+     attr: ('type', 'text/javascript')
+Data     : 
+<!-- Javascript starts here
+document.write('<a href="#" onClick="var popupwin = window.open(\'/dspace/help/index.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;">Help<\/a>');
+// -->
+
+End tag  : script
+Start tag: noscript
+Start tag: a
+     attr: ('href', '/dspace/help/index.html')
+     attr: ('target', 'dspacepopup')
+Data     : Help
+End tag  : a
+End tag  : noscript
+Data     : 
+    
+End tag  : td
+Data     : 
+  
+End tag  : tr
+Data     : 
+
+  
+Start tag: tr
+     attr: ('class', 'navigationBarItem')
+Data     : 
+    
+Start tag: td
+     attr: ('nowrap', 'nowrap')
+     attr: ('class', 'navigationBarItem')
+Data     : 
+      
+Start tag: a
+     attr: ('href', '/dspace/')
+Data     : Home
+End tag  : a
+Data     : 
+    
+End tag  : td
+Data     : 
+  
+End tag  : tr
+Data     : 
+  
+Start tag: tr
+     attr: ('class', 'navigationBarItem')
+Data     : 
+    
+Start tag: td
+     attr: ('nowrap', 'nowrap')
+     attr: ('class', 'navigationBarItem')
+Data     : 
+      
+Start tag: a
+     attr: ('href', '/dspace/sitestats')
+Data     : Usage Statistics
+End tag  : a
+Data     : 
+    
+End tag  : td
+Data     : 
+  
+End tag  : tr
+Data     : 
+
+
+
+  
+Start tag: tr
+     attr: ('class', 'navigationBarItem')
+Data     : 
+    
+Start tag: td
+     attr: ('nowrap', 'nowrap')
+     attr: ('class', 'navigationBarItem')
+Data     : 
+      
+Start tag: a
+     attr: ('href', '/dspace/mydspace')
+Data     : Login
+End tag  : a
+End tag  : td
+Data     : 
+ 
+End tag  : tr
+Data     : 
+
+
+
+
+
+
+
+
+End tag  : table
+Data     : 
+
+
+Start tag: div
+     attr: ('id', 'contact')
+Data     : 
+
+Start tag: img
+     attr: ('src', '/global/images/logo/white_FFFFFF.gif')
+     attr: ('width', '165')
+     attr: ('height', '80')
+     attr: ('alt', 'The University of Adelaide Australia')
+End tag  : img
+Data     : 
+
+Start tag: p
+Start tag: strong
+Data     : The University of Adelaide Library
+End tag  : strong
+Start tag: br
+End tag  : br
+Data     : 
+North Terrace
+Start tag: br
+End tag  : br
+Data     : 
+ADELAIDE SA 5005
+End tag  : p
+Data     : 
+
+Start tag: p
+Data     : Phone: +61 8 8313 5372
+Start tag: br
+End tag  : br
+Data     : 
+Fax: +61 8 8313 4369
+Start tag: br
+End tag  : br
+Data     : 
+Email:
+Start tag: br
+End tag  : br
+Data     : 
+
+Start tag: a
+     attr: ('href', u'mailto:library@adelaide.edu.au')
+Data     : library
+Data     : adelaide.edu.au
+End tag  : a
+End tag  : p
+Data     : 
+
+
+Start tag: p
+Data     : Powered by
+Start tag: br
+End tag  : br
+Data     : 
+
+Start tag: a
+     attr: ('href', 'http://www.dspace.org/')
+Start tag: img
+     attr: ('src', '/lib/DSpace.png')
+     attr: ('border', '0')
+     attr: ('alt', 'DSpace logo')
+     attr: ('height', '50')
+     attr: ('width', '131')
+End tag  : img
+End tag  : a
+Data     : 
+
+End tag  : p
+Data     : 
+
+
+Start tag: p
+Data     : 
+
+Start tag: a
+     attr: ('href', 'http://validator.w3.org/check?uri=referer')
+Start tag: img
+     attr: ('src', '/lib/valid-xhtml10.png')
+     attr: ('border', '0')
+     attr: ('alt', 'Valid XHTML 1.0!')
+     attr: ('height', '31')
+     attr: ('width', '88')
+End tag  : img
+End tag  : a
+Data     : 
+
+End tag  : p
+Data     : 
+
+End tag  : div
+Data     : 
+
+            
+End tag  : td
+Data     : 
+
+            
+
+            
+            
+            
+            
+Start tag: td
+     attr: ('class', 'pageContents')
+     attr: ('width', '100%')
+Data     : 
+
+                
+
+                
+
+
+
+
+  
+
+
+
+Start tag: p
+     attr: ('class', 'locationBar')
+Data     : 
+
+
+Start tag: a
+     attr: ('href', '/dspace/')
+Data     : Adelaide Research and Scholarship
+End tag  : a
+Data     : 
+ : 
+
+Start tag: a
+     attr: ('href', '/dspace/handle/2440/6')
+Data     :  Schools and Disciplines
+End tag  : a
+Data     : 
+ : 
+
+Start tag: a
+     attr: ('href', '/dspace/handle/2440/13903')
+Data     : School of Paediatrics 
+Data     : &
+Data     :  Reproductive Health
+End tag  : a
+Data     : 
+ : 
+
+Start tag: a
+     attr: ('href', '/dspace/handle/2440/5865')
+Data     : Obstetrics and Gynaecology
+End tag  : a
+Data     : 
+ : 
+
+Start tag: a
+     attr: ('href', '/dspace/handle/2440/5875')
+Data     : Obstetrics and Gynaecology Publications
+End tag  : a
+Data     : 
+
+
+End tag  : p
+Data     : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+Start tag: table
+     attr: ('align', 'center')
+     attr: ('class', 'miscTable')
+Data     : 
+        
+Start tag: tr
+Data     : 
+            
+Start tag: td
+     attr: ('class', 'evenRowEvenCol')
+     attr: ('align', 'center')
+Data     : 
+                
+                
+Start tag: strong
+Data     : Please use this identifier to cite or link to this item:
+                
+Start tag: code
+Data     : http://hdl.handle.net/2440/79437
+End tag  : code
+End tag  : strong
+Data     : 
+            
+End tag  : td
+Data     : 
+            
+Start tag: td
+     attr: ('class', 'evenRowEvenCol')
+     attr: ('align', 'center')
+Data     : 
+                
+Start tag: form
+     attr: ('method', 'post')
+     attr: ('action', '/dspace/metadataexport')
+Data     : 
+                    
+Start tag: input
+     attr: ('type', 'hidden')
+     attr: ('name', 'handle')
+     attr: ('value', '2440/79437')
+End tag  : input
+Data     : 
+                    
+Start tag: input
+     attr: ('type', 'submit')
+     attr: ('name', 'submit')
+     attr: ('value', 'Export metadata')
+End tag  : input
+Data     : 
+                
+End tag  : form
+Data     : 
+            
+End tag  : td
+Data     :             
+
+        
+End tag  : tr
+Data     : 
+    
+End tag  : table
+Data     : 
+    
+Start tag: br
+End tag  : br
+Data     : 
+
+
+
+        
+Start tag: div
+     attr: ('id', 'scopusCount')
+End tag  : div
+Data     : 
+        
+Start tag: div
+     attr: ('align', 'center')
+     attr: ('id', 'webScienceCount')
+End tag  : div
+Data     : 
+
+
+    
+    
+Start tag: center
+Start tag: table
+     attr: ('class', 'itemDisplayTable')
+Data     : 
+
+Start tag: tr
+Start tag: td
+     attr: ('class', 'metadataFieldLabel')
+Data     : Type:
+End tag  : td
+Start tag: td
+     attr: ('class', 'metadataFieldValue')
+Data     : Journal article
+End tag  : td
+End tag  : tr
+Data     : 
+
+Start tag: tr
+Start tag: td
+     attr: ('class', 'metadataFieldLabel')
+Data     : Title:
+End tag  : td
+Start tag: td
+     attr: ('class', 'metadataFieldValue')
+Data     : The association of AGTR2 polymorphisms with preeclampsia and uterine artery bilateral notching is modulated by maternal BMI
+End tag  : td
+End tag  : tr
+Data     : 
+
+Start tag: tr
+Start tag: td
+     attr: ('class', 'metadataFieldLabel')
+Data     : Author:
+End tag  : td
+Start tag: td
+     attr: ('class', 'metadataFieldValue')
+Start tag: a
+     attr: ('href', '/dspace/browse?type=author&value=Zhou%2C+Ang')
+Data     : Zhou, Ang
+End tag  : a
+Start tag: br
+End tag  : br
+Start tag: a
+     attr: ('href', '/dspace/browse?type=author&value=Dekker%2C+Gustaaf+Albert')
+Data     : Dekker, Gustaaf Albert
+End tag  : a
+Start tag: br
+End tag  : br
+Start tag: a
+     attr: ('href', '/dspace/browse?type=author&value=Lumbers%2C+Eugenie+Ruth')
+Data     : Lumbers, Eugenie Ruth
+End tag  : a
+Start tag: br
+End tag  : br
+Start tag: a
+     attr: ('href', '/dspace/browse?type=author&value=Leemaqz%2C+Shalem+Yiner-Lee')
+Data     : Leemaqz, Shalem Yiner-Lee
+End tag  : a
+Start tag: br
+End tag  : br
+Start tag: a
+     attr: ('href', '/dspace/browse?type=author&value=Thompson%2C+Steven+David')
+Data     : Thompson, Steven David
+End tag  : a
+Start tag: br
+End tag  : br
+Start tag: a
+     attr: ('href', '/dspace/browse?type=author&value=McCowan%2C+Lesley+M.+E.')
+Data     : McCowan, Lesley M. E.
+End tag  : a
+Start tag: br
+End tag  : br
+Start tag: a
+     attr: ('href', '/dspace/browse?type=author&value=Roberts%2C+Claire+Trelford')
+Data     : Roberts, Claire Trelford
+End tag  : a
+End tag  : td
+End tag  : tr
+Data     : 
+
+Start tag: tr
+Start tag: td
+     attr: ('class', 'metadataFieldLabel')
+Data     : Citation:
+End tag  : td
+Start tag: td
+     attr: ('class', 'metadataFieldValue')
+Data     : Placenta, 2013; 34(1):75-81
+End tag  : td
+End tag  : tr
+Data     : 
+
+Start tag: tr
+Start tag: td
+     attr: ('class', 'metadataFieldLabel')
+Data     : Publisher:
+End tag  : td
+Start tag: td
+     attr: ('class', 'metadataFieldValue')
+Data     : W B Saunders Co
+End tag  : td
+End tag  : tr
+Data     : 
+
+Start tag: tr
+Start tag: td
+     attr: ('class', 'metadataFieldLabel')
+Data     : Issue Date:
+End tag  : td
+Start tag: td
+     attr: ('class', 'metadataFieldValue')
+Data     : 2013
+End tag  : td
+End tag  : tr
+Data     : 
+
+Start tag: tr
+Start tag: td
+     attr: ('class', 'metadataFieldLabel')
+Data     : ISSN:
+End tag  : td
+Start tag: td
+     attr: ('class', 'metadataFieldValue')
+Start tag: a
+     attr: ('href', 'http://library.adelaide.edu.au/cgi-bin/Pwebrecon.cgi?DB=local&CNT=50&SAB1=0143-4004&BOOL1=all+of+these&FLD1=ISBN+%2F+ISSN+%28INUM%29')
+Data     : 0143-4004
+End tag  : a
+End tag  : td
+End tag  : tr
+Data     : 
+
+Start tag: tr
+Start tag: td
+     attr: ('class', 'metadataFieldLabel')
+Data     : School/Discipline:
+End tag  : td
+Start tag: td
+     attr: ('class', 'metadataFieldValue')
+Start tag: a
+     attr: ('href', '/dspace/browse?type=author&value=School+of+Paediatrics+and+Reproductive+Health+%3A+Obstetrics+and+Gynaecology')
+Data     : School of Paediatrics and Reproductive Health : Obstetrics and Gynaecology
+End tag  : a
+End tag  : td
+End tag  : tr
+Data     : 
+
+Start tag: tr
+Start tag: td
+     attr: ('class', 'metadataFieldLabel')
+Data     : Statement of
+Start tag: br
+End tag  : br
+Data     : Responsibility:
+End tag  : td
+Start tag: td
+     attr: ('class', 'metadataFieldValue')
+Data     : A. Zhou, G.A. Dekker, E.R. Lumbers, S.Y. Lee, S.D. Thompson, L.M.E. McCowan, C.T. Roberts
+End tag  : td
+End tag  : tr
+Data     : 
+
+Start tag: tr
+Start tag: td
+     attr: ('class', 'metadataFieldLabel')
+Data     : Keywords:
+End tag  : td
+Start tag: td
+     attr: ('class', 'metadataFieldValue')
+Data     : AGTR2 C4599A; AGTR2 A1675G; Polymorphism; BMI; Preeclampsia; Uterine artery bilateral notching
+End tag  : td
+End tag  : tr
+Data     : 
+
+Start tag: tr
+Start tag: td
+     attr: ('class', 'metadataFieldLabel')
+Data     : Description:
+End tag  : td
+Start tag: td
+     attr: ('class', 'metadataFieldValue')
+Data     : On behalf of the SCOPE consortium
+End tag  : td
+End tag  : tr
+Data     : 
+
+Start tag: tr
+Start tag: td
+     attr: ('class', 'metadataFieldLabel')
+Data     : Rights:
+End tag  : td
+Start tag: td
+     attr: ('class', 'metadataFieldValue')
+Data     : © 2012 Elsevier Ltd. All rights reserved.
+End tag  : td
+End tag  : tr
+Data     : 
+
+Start tag: tr
+Start tag: td
+     attr: ('class', 'metadataFieldLabel')
+Data     : RMID:
+End tag  : td
+Start tag: td
+     attr: ('class', 'metadataFieldValue')
+Start tag: a
+     attr: ('href', 'http://digital.library.adelaide.edu.au/archive/002012/0020125633/')
+Data     : 0020125633
+End tag  : a
+End tag  : td
+End tag  : tr
+Data     : 
+
+Start tag: tr
+Start tag: td
+     attr: ('class', 'metadataFieldLabel')
+Data     : DOI:
+End tag  : td
+Start tag: td
+     attr: ('class', 'metadataFieldValue')
+Start tag: a
+     attr: ('href', 'http://dx.doi.org/10.1016/j.placenta.2012.10.007')
+Data     : 10.1016/j.placenta.2012.10.007
+End tag  : a
+End tag  : td
+End tag  : tr
+Data     : 
+
+Start tag: tr
+Start tag: td
+     attr: ('class', 'metadataFieldLabel')
+Data     : Appears in Collections:
+End tag  : td
+Start tag: td
+     attr: ('class', 'metadataFieldValue')
+Start tag: a
+     attr: ('href', '/dspace/handle/2440/5875')
+Data     : Obstetrics and Gynaecology Publications
+End tag  : a
+Start tag: br
+End tag  : br
+End tag  : td
+End tag  : tr
+Data     : 
+
+Start tag: tr
+Start tag: td
+     attr: ('class', 'metadataFieldLabel')
+Data     : View citing articles in:
+End tag  : td
+Start tag: td
+     attr: ('class', 'metadataFieldValue')
+Start tag: a
+     attr: ('href', 'http://gateway.isiknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=uniAdelaide&SrcApp=resolve1&DestLinkType=CitingArticles&KeyUT=000314326700013&DestApp=WOS_CPL')
+Data     : Web of Science
+End tag  : a
+Start tag: br
+End tag  : br
+Start tag: a
+     attr: ('href', 'http://scholar.google.com/scholar?num=20&q=link:http://dx.doi.org/10.1016/j.placenta.2012.10.007')
+Data     : Google Scholar
+End tag  : a
+Start tag: br
+End tag  : br
+Start tag: a
+     attr: ('href', 'http://www.scopus.com/scopus/inward/citedby.url?doi=10.1016/j.placenta.2012.10.007&sortField=date&partnerID=pUWguXd3&rel=3.0.0')
+Data     : Scopus
+End tag  : a
+Start tag: br
+End tag  : br
+End tag  : td
+End tag  : tr
+Data     : 
+
+End tag  : table
+End tag  : center
+Start tag: br
+End tag  : br
+Data     : 
+
+Start tag: table
+     attr: ('align', 'center')
+     attr: ('class', 'miscTable')
+Start tag: tr
+Start tag: td
+     attr: ('class', 'evenRowEvenCol')
+Start tag: p
+Start tag: strong
+Data     : Files in This Item:
+End tag  : strong
+End tag  : p
+Data     : 
+
+Start tag: table
+     attr: ('cellpadding', '6')
+Start tag: tr
+Start tag: th
+     attr: ('id', 't1')
+     attr: ('class', 'standard')
+Data     : File
+End tag  : th
+Data     : 
+
+Start tag: th
+     attr: ('id', 't2')
+     attr: ('class', 'standard')
+Data     : Description
+End tag  : th
+Data     : 
+
+Start tag: th
+     attr: ('id', 't3')
+     attr: ('class', 'standard')
+Data     : Size
+End tag  : th
+Start tag: th
+     attr: ('id', 't4')
+     attr: ('class', 'standard')
+Data     : Format
+End tag  : th
+End tag  : tr
+Data     : 
+
+Start tag: tr
+Start tag: td
+     attr: ('headers', 't1')
+     attr: ('class', 'standard')
+Start tag: a
+     attr: ('target', '_blank')
+     attr: ('href', '/dspace/bitstream/2440/79437/1/hdl_79437.pdf')
+Data     : hdl_79437.pdf
+End tag  : a
+End tag  : td
+Start tag: td
+     attr: ('headers', 't2')
+     attr: ('class', 'standard')
+Data     : Accepted version
+End tag  : td
+Start tag: td
+     attr: ('headers', 't3')
+     attr: ('class', 'standard')
+Data     : 461.54 kB
+End tag  : td
+Start tag: td
+     attr: ('headers', 't4')
+     attr: ('class', 'standard')
+Data     : Adobe PDF
+End tag  : td
+Start tag: td
+     attr: ('class', 'standard')
+     attr: ('align', 'center')
+Start tag: a
+     attr: ('target', '_blank')
+     attr: ('href', '/dspace/bitstream/2440/79437/1/hdl_79437.pdf')
+Data     : View/Open
+End tag  : td
+End tag  : tr
+End tag  : table
+Data     : 
+
+End tag  : td
+End tag  : tr
+End tag  : table
+Start tag: br
+End tag  : br
+Data     : 
+
+
+
+    
+Start tag: div
+     attr: ('align', 'center')
+Data     : 
+
+    
+Start tag: form
+     attr: ('method', 'get')
+     attr: ('action', '/dspace/handle/2440/79437')
+Data     : 
+        
+Start tag: input
+     attr: ('type', 'hidden')
+     attr: ('name', 'mode')
+     attr: ('value', 'full')
+End tag  : input
+Data     : 
+        
+Start tag: input
+     attr: ('type', 'submit')
+     attr: ('name', 'submit_simple')
+     attr: ('value', 'Show full item record')
+End tag  : input
+Data     : 
+    
+End tag  : form
+Data     : 
+
+ 
+    
+End tag  : div
+Data     : 
+
+
+
+Start tag: div
+     attr: ('align', 'center')
+Data     : 
+    
+Start tag: form
+     attr: ('method', 'get')
+     attr: ('action', '/dspace/displaystats')
+Data     : 
+        
+Start tag: input
+     attr: ('type', 'hidden')
+     attr: ('name', 'handle')
+     attr: ('value', '2440/79437')
+End tag  : input
+Data     : 
+        
+Start tag: input
+     attr: ('type', 'submit')
+     attr: ('name', 'submit_simple')
+     attr: ('value', 'View Statistics')
+End tag  : input
+Data     : 
+    
+End tag  : form
+Data     : 
+
+End tag  : div
+Data     : 
+
+
+    
+
+    
+
+    
+Start tag: p
+     attr: ('class', 'submitFormHelp')
+Data     : Items in DSpace are protected by copyright, with all rights reserved, unless otherwise indicated.
+End tag  : p
+Data     : 
+    
+Data     : 
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+                    
+Start tag: p
+End tag  : p
+Data     : 
+                
+End tag  : td
+Data     : 
+
+            
+
+            
+End tag  : tr
+Data     : 
+
+        
+End tag  : table
+Data     : 
+
+    
+    
+Start tag: div
+     attr: ('id', 'foot-section')
+     attr: ('title', 'Page footer')
+Data     : 
+    
+Start tag: table
+     attr: ('border', '0')
+     attr: ('width', '100%')
+     attr: ('cellpadding', '0')
+     attr: ('cellspacing', '0')
+Data     : 
+    
+Start tag: tr
+     attr: ('valign', 'top')
+Data     : 
+    
+Start tag: td
+     attr: ('align', 'left')
+Data     : 
+    
+Data     :  2008
+    The University of Adelaide
+Start tag: br
+Data     : 
+    
+Start tag: a
+     attr: ('href', u'mailto:library@adelaide.edu.au')
+Data     : library
+Data     : adelaide.edu.au
+End tag  : a
+Start tag: br
+Data     : 
+    CRICOS Provider Number 00123M
+    
+End tag  : td
+Data     : 
+
+    
+Start tag: td
+     attr: ('align', 'right')
+Start tag: a
+     attr: ('href', 'http://www.adelaide.edu.au/library/about/policies/charter.html')
+Data     : Service Charter
+End tag  : a
+Data     :  |
+    
+Start tag: a
+     attr: ('href', 'http://www.adelaide.edu.au/copyright.html')
+Data     : Copyright
+End tag  : a
+Data     :  |
+    
+Start tag: a
+     attr: ('href', 'http://www.adelaide.edu.au/privacy.html')
+Data     : Privacy
+End tag  : a
+Data     :  |
+    
+Start tag: a
+     attr: ('href', 'http://www.adelaide.edu.au/disclaim.html')
+Data     : Disclaimer
+End tag  : a
+Data     : 
+    
+End tag  : td
+Data     : 
+    
+End tag  : tr
+Data     : 
+    
+End tag  : table
+Data     : 
+
+    
+End tag  : div
+Data     : 
+    
+
+    
+End tag  : body
+Data     : 
+
+End tag  : html
+Data     : 
+
+
+DC.description
+DC.subject
+DC.title
+Generator
+DC.contributor
+DC.identifier
+DC.type
+DC.publisher
+DC.creator
+DC.relation
+DCTERMS.available
+DCTERMS.bibliographicCitation
+Content-Type
+DCTERMS.dateAccepted
+DC.language
+DCTERMS.issued

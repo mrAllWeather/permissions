@@ -1,0 +1,15 @@
+{% extends "base_permission.html" %}
+
+{% block header %}Journals{% endblock %}
+
+{% block content %}
+	{% if latest_journal_list %}
+		<ul>
+		{% for journal in latest_journal_list %}
+			<li><a href="{% url 'permission:detail' journal.id %}">{{journal.title}}</a></li>
+		{% endfor %}
+		</ul>
+	{% else %}
+		<p>No journals are available.</p>
+	{% endif %}
+{% endblock %}

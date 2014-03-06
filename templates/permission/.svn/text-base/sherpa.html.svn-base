@@ -1,0 +1,25 @@
+{% block sherpa %}
+        <div class="title" >
+                <h2>Sherpa details</h2>
+        </div>                                                                                                                                                                                                         <ul class="style1">
+        {% with journal.sherpa_results as sherpa %}
+
+                        <h3>Publisher:</h3>
+                        <p><a href="{{ sherpa.publisher_url }}">{{ sherpa.publisher }}</a></p>
+
+                        <h3>Journal:</h3>
+                        <p>{{ sherpa.journal }}</p>
+
+                        <h3>Rights</h3>
+                        <p><b>Submitted:</b> {{ sherpa.submitted }}</p>
+                        <p><b>Accepted:</b> {{ sherpa.accepted }}</p>
+                        <p><b>Published:</b> {{ sherpa.published }}</p>
+
+                        <h3>Permission Text:</h3>
+                                {% for point in sherpa.permission_text %}
+                                <p> - {{ point }}</p>
+                {% endfor %}
+                </li>
+        {% endwith %}
+{% endblock %}
+

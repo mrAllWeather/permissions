@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/a1617712/!svn/ver/180/digitalservices/webdj/mysite/permission/modules/testdata
+END
+test.0
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/a1617712/!svn/ver/180/digitalservices/webdj/mysite/permission/modules/testdata/test.0
+END
+test.1
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/a1617712/!svn/ver/180/digitalservices/webdj/mysite/permission/modules/testdata/test.1
+END
+Data.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/a1617712/!svn/ver/180/digitalservices/webdj/mysite/permission/modules/testdata/Data.txt
+END
+dspace.lookup
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/a1617712/!svn/ver/180/digitalservices/webdj/mysite/permission/modules/testdata/dspace.lookup
+END
+db.sqlite3
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/a1617712/!svn/ver/180/digitalservices/webdj/mysite/permission/modules/testdata/db.sqlite3
+END

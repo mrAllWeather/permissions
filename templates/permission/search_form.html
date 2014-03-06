@@ -1,0 +1,21 @@
+{% extends "base_permission.html" %}
+
+{% block header %}ISSN Search{% endblock %}
+{% block subheader %}{% endblock %}
+
+{% block content %}
+	{% if errors %}
+		<ul>
+			{% for error in errors %}
+			<li>{{ error }}</li>
+			{% endfor %}
+		</ul>
+	<a href="{% url 'admin:permission_journal_add' %}">Add Journal</a>
+	<p><i>Please check all issn's first. You may just need to add the issn to an existing record</p>
+	{% endif %}
+
+	<form action=" " method="get">
+		<input type="text" name="query">
+		<input type="submit" value="Search">
+	</form>
+{% endblock %}

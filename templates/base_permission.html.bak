@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+	<title>{% block title %}Permissions Search{% endblock %}</title>
+</head>
+
+<body>
+	<div id="container" style="width:100%">
+
+		<div id="header" style="background-color:#33CC33;">
+			<h1 style="margin-bottom:0;">{% block header %}{% endblock %}</h1>
+		</div>
+	
+		<div id="sidebar" style="background-color:#85E085; width:10%; float:left;">
+			<ul>
+				{% block sidebar %}
+				<li><a href="/">Home</a></li>
+				<li><a href="/permission/">Journals</a></li>
+				{% endblock %}
+			</ul>
+		</div>
+
+		<div id="sherpa" style="background-color:#85E085; width:20%; float:right;">
+			{% block sherpa %}
+			{% endblock %}
+		</div>
+
+		<div id="content" style="width:70%; float:centre;">
+			{% block content %}
+			{% endblock %}
+		</div>
+	</div>
+</body>
+</html>
+

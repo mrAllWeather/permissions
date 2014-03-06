@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/a1617712/!svn/ver/173/digitalservices/webdj/mysite/permission/modules
+END
+import.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/a1617712/!svn/ver/179/digitalservices/webdj/mysite/permission/modules/import.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/a1617712/!svn/ver/174/digitalservices/webdj/mysite/permission/modules/__init__.py
+END
+dspace.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/a1617712/!svn/ver/180/digitalservices/webdj/mysite/permission/modules/dspace.py
+END
+Data.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/a1617712/!svn/ver/175/digitalservices/webdj/mysite/permission/modules/Data.txt
+END
+sherpa.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/a1617712/!svn/ver/173/digitalservices/webdj/mysite/permission/modules/sherpa.py
+END
+__init__.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/a1617712/!svn/ver/174/digitalservices/webdj/mysite/permission/modules/__init__.pyc
+END
+sherpa.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/a1617712/!svn/ver/175/digitalservices/webdj/mysite/permission/modules/sherpa.pyc
+END

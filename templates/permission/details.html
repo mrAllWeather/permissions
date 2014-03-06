@@ -1,0 +1,55 @@
+{% extends "base_permission.html" %}
+
+{% block header %}{{ journal.title }}{% endblock %}
+{% block subheader %}{% endblock %}
+
+{% block content %}
+	<ul class="style1">
+		<div style="float: right;">
+			<a href="{% url 'admin:permission_journal_change' journal.id %}">Edit Journal</a>
+			<a href="{% url 'admin:permission_publisher_change' journal.publisher.id %}">Edit Publisher</a>
+			<a href="{% url 'admin:permission_agreement_change' journal.agreement.id %}">Edit Agreement</a>
+		</div>
+
+		<h3><u>ISSN</u></h3>
+		{% for issn in journal.issn %}
+			<p>{{ issn }}</p>
+		{% endfor %}
+
+		<h3><u>Brief Details</u></h3>
+		<p>
+		{% if journal.agreement.journal_only %}
+			<b>Agreement:</b> Specific to "{{ journal.title }}"
+		{% else %}
+			<b>Agreement:</b> Publisher ({{journal.agreement.publisher }})
+		{% endif %}<br>
+
+		<b>Last Verified:</b> {{ journal.agreement.last_verified }}<br>	
+
+		<b>Submitted:</b> {{ journal.agreement.submitted|yesno:"Yes, No" }}
+			{% if journal.agreement.submitted_restrictions == "" %}{% else %} with {{ journal.agreement.submitted_restrictions }} mth embargo. {% endif %}<br>
+		<b>Accepted:</b> {{ journal.agreement.accepted|yesno:"Yes, No" }}
+			{% if journal.agreement.accepted_restrictions == "" %}{% else %} with {{ journal.agreement.accepted_restrictions }} mth embargo. {% endif %}<br>
+		<b>Published:</b> {{ journal.agreement.published|yesno:"Yes, No" }}
+			{% if journal.agreement.published_restrictions == "" %}{% else %} with {{ journal.agreement.published_restrictions }} mth embargo. {% endif %}<br>
+		<b>Internal Notes:</b>
+		{{ journal.agreement.notes|linebreaks }}
+		</p>
+		<h3><u>Evidence Location</u></h3>
+		<p>
+		{% if journal.agreement.evidence_form == "HTML" %}
+			<a href="{{ journal.agreement.evidence_location }}"><u>{{ journal.agreement.evidence_location }}</u></a>
+		{% else %}
+			{{ journal.agreement.evidence_form }}: {{ journal.agreement.evidence_location }}
+		{% endif %}
+		</p>
+		<h3><u>Evidence</u></h3>
+		<p>{{ journal.agreement.evidence_statement|linebreaks }}</p>
+	</ul>
+	<br>
+	{# Journal Links #}
+	Persistant Link: <a href="{% url 'permission:detail' journal.id %}">http://{{ domain_name }}{% url 'permission:detail' journal.id %}</a><br>
+	<a href="http://digital.library.adelaide.edu.au/dspace/simple-search?query={{ journal.issn|join:" OR " }}&sort_by=2&order=DESC&submit=Go">Link to this journal's articles in DSpace</a>
+{% endblock %}
+
+
