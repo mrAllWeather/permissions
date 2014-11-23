@@ -1,13 +1,19 @@
 {% extends "base_permission.html" %}
 
 {% block header %}Journals{% endblock %}
-{% block subheader %}{% endblock %}
+{% block subheader %}<a name="top"></a>{% endblock %}
 
 {% block content %}
 	{% regroup journals by first_letter as letter_list %}
-	<ul>
+	<centre>
 	{% for letter in letter_list %}
-		<li><b>{{ letter.grouper }}</b>
+	<a style="display: inline" href="#{{ letter.grouper }}">{{ letter.grouper }}</a>
+	{% endfor %}
+
+	{% for letter in letter_list %}
+	</centre>
+	<ul>
+		<li><b><a name="{{ letter.grouper }}">{{ letter.grouper }}</a> <a href="#top">↑</a></b>
 			<ul>
 				{% for item in letter.list %}
 				<li><a href="{% url 'permission:detail' item.id %}">{{ item.title }}</a></li>

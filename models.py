@@ -1,5 +1,7 @@
 import datetime
 import sys
+import os
+from uuid import uuid4
 from django.utils import timezone
 from django.db import models
 from django.core.exceptions import MultipleObjectsReturned
@@ -20,6 +22,9 @@ class Publisher(models.Model):
 
 	def __unicode__(self):
 		return self.name
+
+	def first_letter(self):
+		return self.name and self.name.upper()[0] or ''
 
 	class Meta:
 		ordering = ['name',]
@@ -108,6 +113,10 @@ class Journal(models.Model):
 		output = ISSN.objects.filter(journal_id=self.id)
 		return output
 
+	def template(self):
+		output = Template.objects.filter(agreement_id=self.agreement.id)
+		return output
+
 	def first_letter(self):
 		return self.title and self.title.upper()[0] or ''
 
@@ -141,3 +150,29 @@ class ISSN(models.Model):
 	def __unicode__(self):
 		return self.issn
 
+def path_and_rename(path):
+    def wrapper(instance, filename):
+        ext = filename.split('.')[-1]
+        # get filename
+        if instance.pk:
+            filename = '{}_{}.{}'.format(instance.agreement_id, instance.agreement_version, ext)
+        else:
+            # set filename as random string
+            filename = '{}.{}'.format(uuid4().hex, ext)
+        # return the whole path to the file
+        return os.path.join(path, filename)
+    return wrapper
+
+class Template(models.Model):
+	TEMPLATE_FORM_CHOICES = (
+		('SUB', 'Submitted'),
+		('ACC', 'Accepted'),
+		('PUB', 'Published'),
+		('FUN', 'Funded Open Access'),
+	)
+	agreement_id = models.ForeignKey(Agreement)
+	template = models.FileField(upload_to=path_and_rename('templates/'))
+	agreement_version = models.CharField(max_length=20, choices=TEMPLATE_FORM_CHOICES, default='ACC', help_text="Select version allowed by agreement")
+	date_added = models.DateField(auto_now_add=True)
+	date_verified = models.DateField(auto_now=True)
+	

@@ -4,6 +4,8 @@ from django.shortcuts import render, get_object_or_404
 from django.contrib.sites.models import get_current_site
 
 from permission.models import Journal, Agreement, ISSN, Publisher
+import modules.sherpa as sherpa
+
 # Create your views here.
 def index(request):
 	journals = Journal.objects.all().extra(
@@ -37,6 +39,7 @@ def vote(request, journal_id):
 
 def search(request):
 	errors = []
+	search_issn = {'issn': '', 'isValid': False}
 
 
 	domain_name = get_current_site(request)
@@ -44,6 +47,7 @@ def search(request):
 
 	if 'query' in request.GET:
 		query = request.GET['query']
+		search_issn['issn'] = query
 		if not query:
 			errors.append('No ISSN entered')
 		elif len(query) != 9:
@@ -58,7 +62,8 @@ def search(request):
 					elif not letter.isnumeric() and letter != 'X':
 						errors.append('Malformed ISSN. ISSN is 8 numbers with a - in the middle. eg. 1111-1111')
 						raise
-					
+
+				search_issn['isValid'] = True
 				search = ISSN.objects.get(issn=query)
 				errors.append(search.journal_id)
 				journal = Journal.objects.get(title=search.journal_id)
@@ -67,8 +72,22 @@ def search(request):
 			except:
 				errors.append('ISSN not found')
 				errors.append(sys.exc_info()[0])
-					
-	return render(request, 'permission/search_form.html', {'errors': errors})
+	
+	if search_issn['isValid']:
+		try:
+			output = sherpa.AskSherpa(search_issn['issn'])
+			if(output['outcome'] == "notFound" or output['outcome'] == "failed"):
+				search_issn['isValid'] = False	
+				errors.append('Not found on Sherpa Romeo')
+
+		except:
+			search_issn['isValid'] = False
+			errors.append('Failed Sherpa search')
+			errors.append(sys.exc_info()[0])
+	
+	
+	return render(request, 'permission/search_form.html', {'errors': errors, 'search_issn': search_issn})
+
 
 def BULKReplaceAgreement(request):
 	if 'toReplace' in request.GET:

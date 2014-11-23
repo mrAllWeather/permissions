@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.contenttypes.models import ContentType
 from django.shortcuts import render
-from permission.models import Journal, ISSN, Publisher, Agreement
+from permission.models import Journal, ISSN, Publisher, Agreement, Template
 
 # Admin Functions
 
@@ -29,9 +29,12 @@ class AgreementAdmin(admin.ModelAdmin):
 		toReplace = request.POST.getlist(admin.ACTION_CHECKBOX_NAME)
 		return render(request, 'permission/BULKReplaceAgreement.html', {'toReplace': toReplace})
 		
+class TemplateAdmin(admin.ModelAdmin):
+	list_display = ('agreement_id', 'template', 'date_verified')
 		
 	
 # Register your models here.
 admin.site.register(Journal, JournalAdmin)
 admin.site.register(Publisher, PublisherAdmin)
 admin.site.register(Agreement, AgreementAdmin)
+admin.site.register(Template, TemplateAdmin)

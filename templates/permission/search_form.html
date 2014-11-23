@@ -14,6 +14,10 @@
 	<p><i>Please check all issn's first. You may just need to add the issn to an existing record</p>
 	{% endif %}
 
+	{% if search_issn.isValid %}
+		<p><i><a href="http://www.sherpa.ac.uk/romeo/issn/{{ search_issn.issn }}/">Sherpa Romeo link</a></i></p>
+	{% endif %}
+	<br>
 	<form action=" " method="get">
 		<input type="text" name="query">
 		<input type="submit" value="Search">

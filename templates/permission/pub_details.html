@@ -18,13 +18,14 @@
 
 		<b>Journals:</b><br>
 		{% for journal in publisher.journals %}
-			<a href="{% url 'permission:detail' journal.id %}">{{journal.title}}</a>
+			<a style="display: inline" href="{% url 'permission:detail' journal.id %}">{{journal.title}}</a>
+			{% if journal.agreement.journal_only %}
+	                        <u><a style="display: inline" href="{% url 'admin:permission_agreement_change' journal.agreement.id %}">(Journal Agreement)</a></u>
+	                {% else %}
+	                        <u><a style="display: inline" href="{% url 'admin:permission_agreement_change' journal.agreement.id %}">({{ publisher.name }}: {{journal.agreement.description }})</a></u>
+	                {% endif %}<br>
 		{% endfor %}
 
-		<b>Agreements:</b><br>
-		{% for agreement in publisher.agreements %}
-			<a href="{% url 'admin:permission_agreement_change' agreement.id %}">{{agreement}}</a>
-		{% endfor %}
 	</ul>
 	<br>
 	{# Journal Links #}

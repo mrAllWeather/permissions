@@ -1,6 +1,6 @@
 {% extends "base_permission.html" %}
 
-{% block header %}{{ journal.title }}{% endblock %}
+{% block header %}<a href="{{ journal.website }}">{{ journal.title }}</a>{% endblock %}
 {% block subheader %}{% endblock %}
 
 {% block content %}
@@ -9,8 +9,22 @@
 			<a href="{% url 'admin:permission_journal_change' journal.id %}">Edit Journal</a>
 			<a href="{% url 'admin:permission_publisher_change' journal.publisher.id %}">Edit Publisher</a>
 			<a href="{% url 'admin:permission_agreement_change' journal.agreement.id %}">Edit Agreement</a>
+			<a href="{% url 'admin:permission_template_add' %}">Add Template</a>
 		</div>
 
+		<h3><u>TEMPLATE</u></h3>
+		{% for template in journal.template %}
+			<p><a style="display: inline" href="{{ template.template.url }}">
+					{% if template.agreement_version  == "ACC" %}
+						Accepted
+					{% elif template.agreement_version  == "SUB" %}
+						Submitted
+					{% else %}
+						Published
+					{% endif %}: {{ template.date_verified }}</a><a style="display: inline" href="{% url 'admin:permission_template_change' template.id %}"> &#60;edit&#62;</i></a>
+		{% empty %}
+			<p><i>No Template attached</i></p>
+		{% endfor %}</p>
 		<h3><u>ISSN</u></h3>
 		{% for issn in journal.issn %}
 			<p>{{ issn }}</p>
@@ -21,7 +35,7 @@
 		{% if journal.agreement.journal_only %}
 			<b>Agreement:</b> Specific to "{{ journal.title }}"
 		{% else %}
-			<b>Agreement:</b> Publisher ({{journal.agreement.publisher }})
+			<b>Agreement:</b> <a style="display: inline" href="{{ journal.agreement.publisher.website}}">{{ journal.agreement.publisher.name }}</a> ({{journal.agreement.description }})
 		{% endif %}<br>
 
 		<b>Last Verified:</b> {{ journal.agreement.last_verified }}<br>	

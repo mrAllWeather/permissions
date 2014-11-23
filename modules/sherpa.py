@@ -32,6 +32,7 @@ def AskSherpa(issn):
 	output['published'] = searchXML('pdfversion', root)
 	output['permission_link'] = searchXML('copyrightlinkurl', root)
 	output['permission_text'] = searchXML('condition', root)
+	output['outcome'] = searchXML('outcome', root)
 
 	return output
 
